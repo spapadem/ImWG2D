@@ -15,19 +15,20 @@ Born approximation. Closed surfaces that occupy a positive volume inside the wav
 
  Call as :
 
- [IKMT,z1,x1] = IKMt(frqs,J)
-
-
- frqs: the frequency (or frequencies) we use in the computation
+     
+     [IKMT,z1,x1] = IKMt(frqs,J)
+     
+frqs: the frequency (or frequencies) we use in the computation
        (enter an array for multiple frequencies).
 
- J   : selective imaging using subspace projection on the Jth singular 
+J   : selective imaging using subspace projection on the Jth singular 
        vector.
        Enter 0 or leave blank for no projection,
        Enter a vector if you want to project on more than one singular 
        vector.
  
  Examples of use:
+ 
        [IKMT,z1,x1] = IKMt(73); Uses a single frequency and no projection.
        [IKMt,z1,x2] = IKMt(31.875:3.75:118.125); Uses multiple frequencies
                       and no projection.
