@@ -1,4 +1,4 @@
-function g = green_term(x1,y1,x2,y2,kn,depth,nmod,R)
+function g = green_inf(x1,y1,x2,y2,kn,depth,nmod,R)
 % y1 = column array
 % y2 = row array
 m = size(x1,1);
